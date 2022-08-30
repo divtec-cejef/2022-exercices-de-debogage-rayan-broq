@@ -13,7 +13,6 @@ if (niveauDeCarburant >= 20000) {
 
 if (statutEquipage  && computerStatus === 'vert'){
 	console.log('Equipage et ordinateur approuvés.');
-	lancementOk = true;
 } else {
 	console.log("AVERTISSEMENT : L'équipage ou l'ordinateur n'est pas prêt !");
 	lancementOk = false;
