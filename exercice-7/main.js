@@ -4,6 +4,7 @@
 
 	for (let i = 0; i < nombres.length; i++) {
 		let diviseur = nombres[i];
+		estUnfacteur = false;
 
 		if (DIVIDENDE % diviseur === 0) {
 			estUnfacteur = true;
